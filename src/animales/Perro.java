@@ -10,6 +10,12 @@ public class Perro {
     private Date fechaNac;
     private Persona amo;
 
+    public Perro(String nombre, String raza, Date fecha){
+        this.nombre = nombre;
+        this.raza = raza;
+        this.fechaNac = fecha;
+    }
+    
     public Perro(String nombre, String raza, Date fecha, Persona amo){
         this.nombre = nombre;
         this.raza = raza;
